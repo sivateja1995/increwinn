@@ -1,0 +1,27 @@
+<div fxLayout="column" fxLayoutAlign="start stretch" fxLayoutGap="gappx" class="width-100 height-100 login-bg">
+  <div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="gappx" class="width-100 height-100">
+    <mat-card class="cards">
+      <mat-card-title style="text-align:center;">Login</mat-card-title>
+      <mat-divider></mat-divider>
+
+      <div fxLayout="column" fxLayoutAlign="start stretch" fxLayoutGap="2em">
+        <div fxLayout="row" fxLayoutAlign="start stretch" fxLayoutGap="gappx" class="inputLength">
+          <mat-form-field appearance="outline">
+            <mat-label>UserName</mat-label>
+            <input matInput placeholder="Enter Username" [(ngModel)]="username" type="text" />
+          </mat-form-field>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="start stretch" fxLayoutGap="gappx" class="inputLength">
+        <mat-form-field appearance='outline'>
+          <mat-label>UserName</mat-label>
+          <input matInput placeholder="Enter password" [(ngModel)]="password" type="password" />
+        </mat-form-field>
+        </div>
+
+        <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="gappx" class="width-100">
+          <button mat-raised-button (click)="submit()" color='primary'>Login</button>
+          </div>
+      </div>
+    </mat-card>
+  </div>
+</div>

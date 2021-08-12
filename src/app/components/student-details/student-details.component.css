@@ -1,0 +1,12 @@
+
+
+.table td{
+
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.table th{
+  background-color:  #c4d1d1;
+}

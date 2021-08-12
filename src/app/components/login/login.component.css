@@ -1,0 +1,16 @@
+
+
+.login-bg{
+  background-color: #c4d1d1;
+}
+
+
+.cards{
+  width: 40%;
+  height: 50%;
+}
+
+.inputLength .mat-form-field{
+  width: 100%;
+  margin: 1em;
+}
